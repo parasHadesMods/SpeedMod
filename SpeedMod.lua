@@ -5,7 +5,7 @@ ModUtil.RegisterMod("SpeedMod")
  - No tiny vermin
  - No thanatos
  - No barge of death
- - Always the same cutscene
+ - No cutscenes
 ]]
 
 ModUtil.LoadOnce(function()
