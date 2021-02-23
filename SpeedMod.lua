@@ -76,7 +76,7 @@ ModUtil.BaseOverride("ShowRunIntro", function()
   return
 end)
 
--- Modded game warning
+-- Modded game warning, (c) museus
 function ShowModdedWarning()
     local obstacleName = "ModdedGame"
     local text_config_table = DeepCopyTable(UIData.CurrentRunDepth.TextFormat)
