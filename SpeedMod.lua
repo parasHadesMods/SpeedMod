@@ -61,7 +61,7 @@ ModUtil.BaseOverride("EndEarlyAccessPresentation", function()
   wait( 0.15 )
 
   FadeIn({ Duration = 0.5 })
-end, RemoveOutroMod) 
+end) 
 
 -- Remove starting cutscene
 ModUtil.BaseOverride("ShowRunIntro", function()
