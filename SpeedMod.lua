@@ -10,7 +10,7 @@ ModUtil.RegisterMod("SpeedMod")
 
 ModUtil.LoadOnce(function()
   -- no tiny vermin
-  RoomDataStyx.D_MiniBoss03.LegalEncounters = { "MiniBossHeavyRangedForked" } 
+  RoomData.D_MiniBoss03.LegalEncounters = { "MiniBossHeavyRangedForked" } 
 end)
 
 -- 2 sack
@@ -27,7 +27,7 @@ end)
 
 -- no than
 ModUtil.WrapBaseFunction("IsEncounterEligible", function( baseFunc, currentRun, room, nextEncounterData )
-  local results = baseFunc( currentRun, currentRoom, nextRoomData, args )
+  local result = baseFunc( currentRun, room, nextEncounterData )
   if not result then
     return false
   elseif nextEncounterData.Name == "ThanatosTartarus" then
