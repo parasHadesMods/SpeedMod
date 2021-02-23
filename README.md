@@ -8,3 +8,5 @@ Dead simple speedrunning mod focussed on RTA speedrun QoL. Not leaderboard legal
  - no barge
  - no tiny vermin
  - no cutscenes
+
+Get the latest release from the [Releases](https://github.com/parasHadesMods/SpeedMod/releases) tab.
